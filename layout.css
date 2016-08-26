@@ -1,0 +1,63 @@
+﻿body {
+}
+
+/* Header Styles*/
+
+body header h1{
+    color: yellow;
+    font-size: 70px;
+}
+
+header{
+    background-color: black;
+
+}
+
+header h1{
+   line-height: 78px;
+   text-align: center;
+   visibility: visible;
+   width: 100%;
+}
+
+/* Nav list*/
+
+header nav{
+   background-color: orange;
+   height: 40px;
+   width: auto;
+}
+
+header nav li{
+   display: block;
+   float: left;
+   line-height: 42px;
+   text-align: center;
+   width: 16%;
+}
+
+header nav li a {
+   color: black;
+   font-variant: small-caps;
+   font-size: 18px;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   text-decoration: none;
+}
+
+header nav li a:hover {
+   color: white;
+}
+
+/* Body styles*/
+
+body{
+    background-color: black;
+    color: orange;
+}
+
+body h1{
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: aqua;
+}
